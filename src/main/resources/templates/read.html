@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8">
+    <title>Read</title>
+</head>
+<body>
+    <h1>Read</h1>
+    <from id="board" th:object="${board}" method="post"></from>
+    <input type="hidden" name="boardNo" th:field="*{boardNo}">
+    <table>
+        <tr>
+
+
+        </tr>
+
+    </table>
+    <div>
+        <button type="submit" id="btnModify">Modify</button>
+        <button type="submit" id="btnList">List</button>
+    </div>
+</body>
+</html>
